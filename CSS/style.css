@@ -1027,7 +1027,6 @@ header .links li a {
     left: 10px;
     background-color: red;
     border-radius: 0 0 10px 0;
-    z-index: -200 !important;
 }
 
 /* End Timeline */
@@ -1213,6 +1212,7 @@ header .links li a {
 /* Start Contact */
 .contact {
     padding: var(--padding-top-bottom) 0;
+    background-color: #47859e;
     background-image: url('/Media/contact.jpg');
     background-size: cover;
     background-repeat: no-repeat;
