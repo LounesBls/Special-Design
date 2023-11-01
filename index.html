@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Design</title>
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header f-center">
+        <div class="logo">special desing</div>
+        <nav>
+            <div class="berger-icon">
+                <span id="spanOne"></span>
+                <span id="hide"></span>
+                <span id="spanTwo"></span>
+            </div>
+            <ul class="links f-center">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#timeline">timeline</a></li>
+                <li id="more-links"><a>more</a></li>
+                <div class="more f-center">
+                    <ul>
+                        <li><a href="#feature">features</a></li>
+                        <li><a href="#testimonials">testimonials</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                    <div class="imgs">
+                        <img data-photocolor="#3ad514" src="/Media/HMore_1.png" alt="exploring">
+                        <img data-photocolor="#687EFF" src="/Media/HMore_2.png" alt="exploring">
+                        <img data-photocolor="#FF4B91" src="/Media/HMore_3.png" alt="exploring">
+                        <img data-photocolor="#B931FC" src="/Media/HMore_4.png" alt="exploring">
+                        <img data-photocolor="#F66B0E" src="/Media/HMore_5.png" alt="exploring">
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <!-- header -->
+
+    <!-- Setting Box -->
+    <div class="setting-box">
+        <svg class="svg-gear" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+            <path
+                d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z" />
+        </svg>
+        <div class="setting-content">
+            <div class="colors">
+                <h5>
+                    Choose Page Color:
+                </h5>
+                <ul class="colors-list">
+                    <li class="active" data-color="#3ad514"></li>
+                    <li data-color="#687EFF"></li>
+                    <li data-color="#FF4B91"></li>
+                    <li data-color="#B931FC"></li>
+                    <li data-color="#F66B0E"></li>
+                </ul>
+            </div>
+            <div class="images">
+                <h5>random backgrounds:</h5>
+                <span class="yes">Yes</span>
+                <span class="no">No</span>
+                <div class="backgrounds-container">
+                    <h5>choose default background</h5>
+                    <ul class="default  f-center">
+                        <li data-background="p1.jpg"></li>
+                        <li data-background="p2-JS.jpg"></li>
+                        <li data-background="p3-MERN.webp"></li>
+                        <li data-background="P4.jpg"></li>
+                        <li data-background="P5.jpg"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fonts"></div>
+        </div>
+    </div>
+    <!-- End Setting Box -->
+
+    <!-- Button To Top -->
+    <div class="top f-center">
+        <a href="#">top</a>
+        <p>^</p>
+    </div>
+    <!-- Button To Top -->
+
+    <!-- Landgin Page -->
+    <div class="landing-Page text-center">
+        <div class="overlay"></div>
+        <div class="text">
+
+            <h2>We Are Front-End Developres</h2>
+            <p>A front-end developer is a type of software developer who specializes in creating and designing the user
+                interface (UI)
+                and user experience (UX) of websites and web applications.</p>
+        </div>
+    </div>
+    <!-- End Landgin Page -->
+
+    <!-- Start About US -->
+    <div class="about f-center" id="about">
+        <div class="container">
+            <div class="text-components">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur reiciendis dolore porro
+                    neque natus inventore aperiam, esse delectus ad dolores voluptate explicabo, ratione corrupti
+                    suscipit maxime.</p>
+            </div>
+            <div class="imgs f-center">
+                <img data-photocolor="#3ad514" src="/Media/Green.png" alt="programming-illustration">
+                <img data-photocolor="#687EFF" src="/Media/Blue.png" alt="programming-illustration">
+                <img data-photocolor="#FF4B91" src="/Media/Pink.png" alt="programming-illustration">
+                <img data-photocolor="#B931FC" src="/Media/Purple.png" alt="programming-illustration">
+                <img data-photocolor="#F66B0E" src="/Media/Orange.png" alt="programming-illustration">
+            </div>
+        </div>
+    </div>
+    <!--  End About US -->
+
+    <!-- Start Our Skills -->
+    <div class="skills" id="skills">
+        <div class="container">
+            <div class="text-components text-center">
+                <h2>my skills</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad voluptate suscipit dolore, odio
+                    praesentium velit neque nostrum dolor perspiciatis, Maiores.</p>
+            </div>
+            <div class="progress text-center">
+                <div class="skill">
+                    <p>html 5</p>
+                    <div class="skill-progress">
+                        <span data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>css 3</p>
+                    <div class="skill-progress">
+                        <span data-progress="80%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>javascript</p>
+                    <div class="skill-progress">
+                        <span data-progress="75%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>json</p>
+                    <div class="skill-progress">
+                        <span data-progress="95%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>ajax</p>
+                    <div class="skill-progress">
+                        <span data-progress="85%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>github</p>
+                    <div class="skill-progress">
+                        <span data-progress="70%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>english</p>
+                    <div class="skill-progress">
+                        <span data-progress="30%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>typing fast</p>
+                    <div class="skill-progress">
+                        <span data-progress="40%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Our Skills -->
+
+    <!-- Start Gallery -->
+    <div class="gallery" id="gallery">
+        <div class="container">
+            <div class="text-components">
+                <h2>Gallery</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam atque eveniet ipsa tempore nostrum.
+                </p>
+            </div>
+            <div class="global">
+                <ul class="f-center">
+                    <li class="all active">all</li>
+                    <li class="web_deve">web developer</li>
+                    <li class="web_des">web design</li>
+                    <li class="graphic_des">graphic design</li>
+                </ul>
+                <div class="show-gallery">
+
+                    <img data-gallery="web_des" src="Media/Gds03.jpg" alt="">
+                    <img data-gallery="graphic_des" src="Media/Gg02.jpg" alt="">
+                    <img data-gallery="web_deve" src="Media/G02.jpg" alt="">
+
+                    <img data-gallery="web_des" src="Media/Gds02.jpg" alt="">
+                    <img data-gallery="web_deve" src="Media/G01.jpg" alt="">
+                    <img data-gallery="graphic_des" src="Media/Gg03.jpg" alt="">
+
+                    <img data-gallery="graphic_des" src="Media/Gg04.jpg" alt="">
+                    <img data-gallery="web_des" src="Media/Gds04.jpg" alt="">
+                    <img data-gallery="web_deve" src="Media/G03.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery -->
+
+    <!-- Start Timeline -->
+    <div class="timeline" id="timeline">
+        <div class="container">
+            <div class="text-components">
+                <h2>timeline</h2>
+            </div>
+            <div class="timeline-content">
+                <div class="text-line">
+                    <h4 class="f-center">last of 2022</h4>
+                    <p class="f-center">start Learn programming fundamentals with <span>Python</span></p>
+                </div>
+                <div class="text-line">
+                    <h4 class="f-center">january 2023</h4>
+                    <p class="f-center">Start Learn Html</p>
+                </div>
+                <div class="text-line">
+                    <h4 class="f-center">ferbruary 2023</h4>
+                    <p class="f-center">Learn Css</p>
+                </div>
+                <div class="text-line">
+                    <h4 class="f-center">jun 2023</h4>
+                    <p class="f-center">Practice On html, Css projects And GitHub</p>
+                </div>
+                <div class="text-line">
+                    <h4 class="f-center">july 2023</h4>
+                    <p class="f-center">Start learn javascript</p>
+                </div>
+                <div class="text-line">
+                    <h4 class="f-center">octubre 2023</h4>
+                    <p class="f-center">End javascript, and start practice</p>
+                </div>
+                <div class="text-line">
+                    <h4 class="f-center">now</h4>
+                    <p class="f-center">still practicing on javascript projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Timeline -->
+
+    <!-- Start Features -->
+    <div class="feature" id="feature">
+        <div class="container">
+            <div class="text-components">
+                <h2>features</h2>
+            </div>
+            <div class="feature-box f-center">
+                <div class="feat-box">
+                    <img src="Media/feat_Design.jpg" alt="image referece to design">
+                    <div class="type-graph">
+                        <h4>Design</h4>
+                        <p>we design classic, graphic, commerse designs and much more.</p>
+                    </div>
+                </div>
+                <div class="feat-box">
+                    <img src="Media/feat_Code.jpg" alt="image referece to coding">
+                    <div class="type-graph">
+                        <h4>development</h4>
+                        <p>we are professional developers, we will do anything you imagine with heigh quality.</p>
+                    </div>
+                </div>
+                <div class="feat-box">
+                    <img src="Media/feat_Test.jpg" alt="image referece to testing">
+                    <div class="type-graph">
+                        <h4>testing</h4>
+                        <p>we test everything before gives our works.</p>
+                    </div>
+                </div>
+                <div class="feat-box">
+                    <img src="Media/feat_Analysis.jpg" alt="image referece to analysis">
+                    <div class="type-graph">
+                        <h4>analysis</h4>
+                        <p>we analysis every piece to fit your needed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Features -->
+
+    <!-- Start Testimonials -->
+    <div class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="text-components">
+                <h2>Testimonials</h2>
+                <p>what our customers are saying...</p>
+            </div>
+            <div class="testimonials-content">
+                <div class="ti-box f-center wave">
+
+                    <div class="type-graph">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <path
+                                    d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
+                            </svg>
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, blanditiis placeat
+                            suscipit
+                            esse saepe repellat soluta ipsa tempora incidunt numquam.
+                        </p>
+                    </div>
+                    <img src="Media/Ginger-copy.jpg" alt="person image">
+                    <h5>Nami</h5>
+                    <div class="sm f-center">
+                        <!-- facebook -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                        </svg>
+                        <!-- twitter -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                        </svg>
+                        <!-- in -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="ti-box f-center wave">
+                    <div class="type-graph">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <path
+                                    d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
+                            </svg>
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, blanditiis placeat
+                            suscipit
+                            esse saepe repellat soluta ipsa tempora incidunt numquam.
+                        </p>
+                    </div>
+                    <img src="Media/test_I01.jpg" alt="person image">
+                    <h5>daz bones</h5>
+                    <div class="sm f-center">
+                        <!-- facebook -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                        </svg>
+                        <!-- twitter -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                        </svg>
+                        <!-- in -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="ti-box f-center wave">
+                    <div class="type-graph">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <path
+                                    d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
+                            </svg>
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, blanditiis placeat
+                            suscipit
+                            esse saepe repellat soluta ipsa tempora incidunt numquam.
+                        </p>
+                    </div>
+                    <img src="Media/test_I02.jpg" alt="person image">
+                    <h5>borsalino</h5>
+                    <div class="sm f-center">
+                        <!-- facebook -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                        </svg>
+                        <!-- twitter -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                        </svg>
+                        <!-- in -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="ti-box f-center wave">
+                    <div class="type-graph">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <path
+                                    d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
+                            </svg>
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, blanditiis placeat
+                            suscipit
+                            esse saepe repellat soluta ipsa tempora incidunt numquam.
+                        </p>
+                    </div>
+                    <img src="Media/test_I03.jpg" alt="person image">
+                    <h5>edward</h5>
+                    <div class="sm f-center">
+                        <!-- facebook -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                        </svg>
+                        <!-- twitter -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                        </svg>
+                        <!-- in -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="ti-box f-center wave">
+                    <div class="type-graph">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <path
+                                    d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
+                            </svg>
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, blanditiis placeat
+                            suscipit
+                            esse saepe repellat soluta ipsa tempora incidunt numquam.
+                        </p>
+                    </div>
+                    <img src="Media/test_I04.jpg" alt="person image">
+                    <h5>teach</h5>
+                    <div class="sm f-center">
+                        <!-- facebook -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                        </svg>
+                        <!-- twitter -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                        </svg>
+                        <!-- in -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="ti-box f-center wave">
+                    <div class="type-graph">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <path
+                                    d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
+                            </svg>
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, blanditiis placeat
+                            suscipit
+                            esse saepe repellat soluta ipsa tempora incidunt numquam.
+                        </p>
+                    </div>
+                    <img src="Media/test_I05.jpg" alt="person image">
+                    <h5>Robin</h5>
+                    <div class="sm f-center">
+                        <!-- facebook -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                        </svg>
+                        <!-- twitter -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                        </svg>
+                        <!-- in -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonials -->
+
+    <!-- Start Contact -->
+    <div class="contact" id="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="text-components">
+                <h2>contact us</h2>
+            </div>
+            <div class="contact-content f-center">
+                <div class="left f-center">
+                    <form action="#">
+                        <input type="text" placeholder="Your Name">
+                        <input type="Email" placeholder="Email">
+                        <input type="password" placeholder="password">
+                        <input type="text" placeholder="Subject">
+                    </form>
+                </div>
+                <div class="right f-center">
+                    <form action="#">
+                        <textarea placeholder="Let Us a Message"></textarea>
+                        <button>Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="over-lay">
+            <!-- First -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                    d="M0,128L80,112C160,96,320,64,480,80C640,96,800,160,960,181.3C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                </path>
+            </svg>
+            <!-- Second -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                    d="M0,96L80,133.3C160,171,320,245,480,234.7C640,224,800,128,960,106.7C1120,85,1280,139,1360,165.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                </path>
+            </svg>
+            <!-- Third -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path
+                    d="M0,288L60,272C120,256,240,224,360,176C480,128,600,64,720,53.3C840,43,960,85,1080,128C1200,171,1320,213,1380,234.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="text-components">
+                <h2>website footers</h2>
+            </div>
+            <div class="foot-content">
+                <div class="social-media">
+                    <!-- facebook -->
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                        <path
+                            d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                    </svg>
+                    <!-- X -->
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                        <path
+                            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                    </svg>
+                    <!-- in -->
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                        <path
+                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                    </svg>
+                    <!-- instagram -->
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                        ! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License -
+                        https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </div>
+                <ul class="f-center">
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#gallery">testimonials</a></li>
+                </ul>
+                <p>&copy;2023, this website build with <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                        viewBox="0 0 512 512">
+                        <path
+                            d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
+                    </svg> from
+                    <span>lounes</span> | all
+                    rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
