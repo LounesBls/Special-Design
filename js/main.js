@@ -177,6 +177,8 @@ landingPage.onclick = function () {
     settingBox.classList.remove('setting-open');
     // Remove berger active classes.
     removeActiveClass();
+
+    moreClick.classList.remove('active')
 };
 
 // Get Array OF Images.
