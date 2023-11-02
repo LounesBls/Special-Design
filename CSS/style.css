@@ -296,23 +296,24 @@ a {
 }
 
 .setting-box .images .backgrounds-container ul li:first-child {
-    background-image: url('/Media/p1.jpg');
+    /* background-image: url('/Media/p1.jpg'); */
+    background-image: url('../Media/p1.jpg');
 }
 
 .setting-box .images .backgrounds-container ul li:nth-child(2) {
-    background-image: url('/Media/p2-JS.jpg');
+    background-image: url('../Media/p2-JS.jpg');
 }
 
 .setting-box .images .backgrounds-container ul li:nth-child(3) {
-    background-image: url('/Media/p3-MERN.webp');
+    background-image: url('../Media/p3-MERN.webp');
 }
 
 .setting-box .images .backgrounds-container ul li:nth-child(4) {
-    background-image: url('/Media/P4.jpg');
+    background-image: url('Media/P4.jpg');
 }
 
 .setting-box .images .backgrounds-container ul li:last-child {
-    background-image: url('/Media/P5.jpg');
+    background-image: url('Media/P5.jpg');
 }
 
 /* End setting-box */
@@ -873,10 +874,11 @@ header .links li a {
 
 .gallery .global .show-gallery img {
     display: none;
-    flex: 1;
     width: 100%;
-    height: 300px;
-    aspect-ratio: 3/3;
+    height: fit-content;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    object-position: left;
 }
 
 .gallery .global .show-gallery img.show {
@@ -1213,7 +1215,7 @@ header .links li a {
 .contact {
     padding: var(--padding-top-bottom) 0;
     background-color: #47859e;
-    background-image: url('Media/contact.jpg');
+    background-image: url('../Media/contact.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
