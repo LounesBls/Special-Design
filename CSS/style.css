@@ -296,7 +296,6 @@ a {
 }
 
 .setting-box .images .backgrounds-container ul li:first-child {
-    /* background-image: url('/Media/p1.jpg'); */
     background-image: url('../Media/p1.jpg');
 }
 
@@ -309,11 +308,11 @@ a {
 }
 
 .setting-box .images .backgrounds-container ul li:nth-child(4) {
-    background-image: url('Media/P4.jpg');
+    background-image: url('../Media/P4.jpg');
 }
 
 .setting-box .images .backgrounds-container ul li:last-child {
-    background-image: url('Media/P5.jpg');
+    background-image: url('../Media/P5.jpg');
 }
 
 /* End setting-box */
