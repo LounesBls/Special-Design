@@ -572,7 +572,7 @@ header .links li a {
 /* Landing Page */
 .landing-Page {
     background: no-repeat center center;
-    background-image: url('/Media/p1.jpg');
+    background-image: url('../Media/p1.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
