@@ -115,7 +115,7 @@ window.onload = function () {
             let randomNumber = Math.floor(Math.random() * imagesArray.length);
 
             // Change Background Image Url
-            landingPage.style.backgroundImage = 'url("Media/'+ imagesArray[randomNumber] +'")';
+            landingPage.style.backgroundImage = 'url("../Media/'+ imagesArray[randomNumber] +'")';
         }, 5000);
 
     } else {
@@ -128,7 +128,7 @@ window.onload = function () {
         // Fixed Background
         // landingPage.style.backgroundImage = imagesArray = ['p1.jpg']
         // console.log(JSON.parse(localStorage.getItem('Default Background')))
-        landingPage.style.backgroundImage = 'url("Media/'+ JSON.parse(localStorage.getItem('Default Background'))+ '")';
+        landingPage.style.backgroundImage = 'url("../Media/'+ JSON.parse(localStorage.getItem('Default Background'))+ '")';
     };
 
     // Choose Illustration's Picture Color.
@@ -213,7 +213,7 @@ yes.onclick = function () {
         let randomNumber = Math.floor(Math.random() * imagesArray.length);
         
         // Change Background Image Url
-        landingPage.style.backgroundImage = 'url("Media/'+ imagesArray[randomNumber] +'")';
+        landingPage.style.backgroundImage = 'url("../Media/'+ imagesArray[randomNumber] +'")';
     }, 5000);
 }
 
@@ -238,7 +238,7 @@ no.onclick = function () {
             // Check If li Contains 'active-default' Class.
             if (li.classList.contains('active-default')) {
                 const settingBgI = [li.dataset.background];
-                landingPage.setAttribute('style', 'background-image: url("Media/'+ [settingBgI] +'") !important'); // Working
+                landingPage.setAttribute('style', 'background-image: url("../Media/'+ [settingBgI] +'") !important'); // Working
                 clearInterval(1)
             } else {
                 landingPage.style.backgroundImage = imagesArray = ['p1.jpg'];
@@ -258,7 +258,7 @@ defaultBackground.addEventListener('click', (e) => {
     const background = e.target.dataset.background;
 
     // landingPage.style.backgroundImage = 'url("Media/'+ [background] +'")';
-    landingPage.setAttribute('style', 'background-image: url("Media/'+ [background] +'") !important'); // Working
+    landingPage.setAttribute('style', 'background-image: url("..Media/'+ [background] +'") !important'); // Working
     // * landingPage.style.cssText = 'background-image: url("Media/'+ [background] +'") !important'; // Working
     // * landingPage.style.setProperty('background-image:', 'url("Media/'+ [background] +'")', 'important'); // Not Working
 
@@ -270,12 +270,6 @@ defaultBackground.addEventListener('click', (e) => {
 });
 
 //  ? This Should Be In Setting Box Part ⬆️⬆️
-
-// Change Background Every 5000ms.
-
-
-// Close Features On click.
-
 
 // Start About Us
 const aboutSection = document.querySelector('.about');
@@ -433,7 +427,6 @@ timeLine.onclick = function () {
 
 
 // Start Features 
-// Close Setting Box
 const featureSection = document.querySelector('.feature');
 featureSection.onclick = function () {
     settingBox.classList.remove('setting-open');
@@ -441,7 +434,6 @@ featureSection.onclick = function () {
 // End Features
 
 // Start Testimonials 
-// Close Setting Box
 const TI = document.querySelector('.testimonials');
 TI.onclick = function () {
     settingBox.classList.remove('setting-open');
@@ -449,7 +441,6 @@ TI.onclick = function () {
 // End Testimonials
 
 // Start Contact 
-// Close Setting Box
 const contactDiv = document.querySelector('.contact');
 contactDiv.onclick = function () {
     settingBox.classList.remove('setting-open');
@@ -457,7 +448,6 @@ contactDiv.onclick = function () {
 // End Contact
 
 // Start Footer 
-// Close Setting Box
 const footer = document.querySelector('footer');
 footer.onclick = function () {
     settingBox.classList.remove('setting-open');
