@@ -1213,7 +1213,7 @@ header .links li a {
 .contact {
     padding: var(--padding-top-bottom) 0;
     background-color: #47859e;
-    background-image: url('/Media/contact.jpg');
+    background-image: url('Media/contact.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
